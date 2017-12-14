@@ -494,7 +494,7 @@ country_regexes = precompile_regexes(country_regexes)
 known_abbreviations = precompile_regexes_dict(known_abbreviations, re.IGNORECASE)
 
 duplicate_spaces = re.compile(" {2,}")
-non_name_characters = ''.join(char for char in map(chr, range(256)) if not char.isalpha())
+non_name_characters = [char for char in map(chr, range(256)) if not char.isalpha()]
 name_separators = re.compile(r'[, ]+')
 comma_without_space = re.compile(r',([a-z])', re.IGNORECASE)
 
