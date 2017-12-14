@@ -1,0 +1,43 @@
+
+% Copyright (c) Nic.br
+%  The use of the data below is only permitted as described in
+%  full by the terms of use at https://registro.br/termo/en.html ,
+%  being prohibited its distribution, commercialization or
+%  reproduction, in particular, to use it for advertising or
+%  any similar purpose.
+%  2017-12-14 00:30:00 (-02 -02:00)
+
+domain:      aymorecfi.com.br
+owner:       AYMORÉ CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.
+owner-c:     LUFCA50
+admin-c:     MAMGA18
+tech-c:      MAMGA18
+billing-c:   MAMGA18
+nserver:     ns1.santander.com.br
+nsstat:      20171213 AA
+nslastaa:    20171213
+nserver:     ns2.santander.com.br
+nsstat:      20171213 AA
+nslastaa:    20171213
+created:     20080111 #4157788
+changed:     20170120
+expires:     20180111
+status:      published
+
+nic-hdl-br:  LUFCA50
+person:      Luiz Félix Cardamone
+created:     20080929
+changed:     20080929
+
+nic-hdl-br:  MAMGA18
+person:      Marcos Martins Galuzzi
+created:     20090312
+changed:     20171019
+
+% Security and mail abuse issues should also be addressed to
+% cert.br, http://www.cert.br/ , respectivelly to cert@cert.br
+% and mail-abuse@cert.br
+%
+% whois.registro.br accepts only direct match queries. Types
+% of queries are: domain (.br), registrant (tax ID), ticket,
+% provider, contact handle (ID), CIDR block, IP and ASN.
