@@ -60,7 +60,11 @@ read_dataset("states_ca.dat", states_ca, "abbreviation", "name", is_dict=True)
 # Because 'UK' is commonly used to refer to the United Kingdom, but formally not the ISO code...
 countries['UK'] = countries['GB']
 
-country_names = set([name.lower() for name in countries.values()])
+if sys.version_info < (3, 0):
+       country_names = set([name.decode('utf-8').lower() for name in countries.values()])
+else:
+       country_names = set([name.lower() for name in countries.values()])
+
 
 def precompile_regexes(source, flags=0):
 	return [re.compile(regex, flags) for regex in source]
